@@ -1,0 +1,158 @@
+.LoginFormpage {
+    width: 100%;
+    background-image: url("../assets/carImage1.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.loginnav {
+    background-color: rgb(228, 222, 222);
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 20px;
+    height: 40px;
+}
+
+.loginnav button {
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    color: rgb(184, 32, 32);
+    border: none;
+}
+
+
+.loginheading {
+    text-align: center;
+}
+
+.loginheading p {
+    font-size: 12vw;
+    margin: 0;
+    color: rgb(235, 244, 235);
+}
+
+.loginform {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login-form {
+   width: 300px;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.login-form-forgot {
+    float: left;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.registernow {
+    margin-left: 95px;
+    color: rgb(238, 240, 236);
+}
+
+.newuser{
+    padding-top: 20px;
+    margin-left: 30px;
+    color: rgb(238, 240, 236);
+}
+
+.loginDescription {
+    display: flex;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 5vw;
+}
+
+.loginDescription span {
+    text-align: center;
+    color: azure;
+}
+
+.RegisterFormpage {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/carImage1.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Registerheading {
+    text-align: center;
+}
+
+.Registerheading p {
+    font-size: 5vw;
+    color: beige;
+}
+
+.registerform {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.registerUsername .ant-form-item-label>label {
+    font-size: 1.5vw;
+    color: yellow;
+}
+
+.registerEmail .ant-form-item-label>label {
+    font-size: 1.5vw;
+    color: yellow;
+}
+
+.registerPassword .ant-form-item-label>label {
+    font-size: 1.5vw;
+    color: yellow;
+}
+
+.registerRole .ant-form-item-label>label {
+    font-size: 1.5vw;
+    color: yellow;
+}
+
+.register-button {
+    width: 9vw;
+    height: 3vw;
+    background-color: rgb(212, 255, 22);
+    color: rgb(15, 15, 15);
+    font-size: 1.5vw;
+}
+
+.registerDescription {
+    display: flex;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.registerDescription span {
+    text-align: center;
+    color: azure;
+
+}
+
+@media screen and (max-width: 576px) {
+    .register-button {
+        width: 10vw;
+        height: 5vw;
+        background-color: rgb(212, 255, 22);
+        color: rgb(15, 15, 15);
+        font-size: 1.5vw;
+    }
+
+}
