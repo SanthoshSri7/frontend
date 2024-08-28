@@ -28,7 +28,7 @@ export function LoginForm() {
                 <Col lg={24} xs={24}>
                     <div className="LoginFormpage">
                         <div className="loginheading">
-                            <p>ZOOM CAR </p>
+                            <p>Car Rentals</p>
                         </div>
                         <div className="loginform">
                             <Form onFinish={onFinish} name="normal_login"

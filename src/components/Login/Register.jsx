@@ -31,7 +31,7 @@ export function Register() {
                 <Col lg={24} xs={24}>
                     <div className="RegisterFormpage">
                         <div className="Registerheading">
-                            <p>WELCOME TO ZOOM CAR </p>
+                            <p>Welcome to Car Rentals </p>
                         </div>
                         <div className="registerform">
                             <Form onFinish={onFinish}>
